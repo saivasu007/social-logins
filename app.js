@@ -123,7 +123,7 @@ app.get('/logout', function(req, res){
 });
 
 // port
-app.listen(1337);
+app.listen(5000);
 console.log("Node application listening on http://127.0.0.1:1337");
 
 // test authentication
