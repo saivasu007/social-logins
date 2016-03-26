@@ -20,8 +20,8 @@ var ids = {
    returnURL: 'http://127.0.0.1:1337/auth/google/callback'
   },
   instagram: {
-    clientID: 'get_your_own',
-    clientSecret: 'get_your_own',
+    clientID: 'ab380b3e670d42ee8cf10bcd0da1ec3a',
+    clientSecret: 'e019706f949846fe8fb15395877d6264',
     callbackURL: 'http://127.0.0.1:1337/auth/instagram/callback'
   },
    linkedin: {

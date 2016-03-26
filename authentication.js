@@ -4,8 +4,8 @@ var TwitterStrategy = require('passport-twitter').Strategy;
 var GoogleStrategy = require('passport-google').Strategy;
 var GithubStrategy = require('passport-github2').Strategy;
 var LinkedinStrategy = require("passport-linkedin-oauth2").Strategy;
-/*var InstagramStrategy = require('passport-instagram').Strategy;
-*/
+var InstagramStrategy = require('passport-instagram').Strategy;
+
 var User = require('./user.js');
 var config = require('./oauth.js');
 
@@ -132,7 +132,7 @@ passport.use(new GoogleStrategy({
     });
   }
 ));
-/*
+
 passport.use(new InstagramStrategy({
   clientID: config.instagram.clientID,
   clientSecret: config.instagram.clientSecret,
@@ -163,7 +163,7 @@ passport.use(new InstagramStrategy({
     });
   }
 ));
-*/
+
 
 passport.use(new LinkedinStrategy({
   clientID: config.linkedin.consumerKey,
@@ -172,7 +172,6 @@ passport.use(new LinkedinStrategy({
   scope: config.linkedin.scope
   },
   function(accessToken, refreshToken, profile, done) {
-	/*
     User.findOne({ oauthID: profile.id }, function(err, user) {
       if(err) {
         console.log(err);  // handle errors!
@@ -180,7 +179,6 @@ passport.use(new LinkedinStrategy({
       if (!err && user !== null) {
         done(null, user);
       } else {
-    	/*
         user = new User({
           oauthID: profile.id,
           name: profile.displayName,
@@ -193,11 +191,9 @@ passport.use(new LinkedinStrategy({
             console.log("saving user ...");
             done(null, user);
           }
-          */
         });
 	   console.log(profile.id);
       }
     });
-    */
   }
 ));
