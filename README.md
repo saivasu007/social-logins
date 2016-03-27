@@ -7,7 +7,7 @@
 
 ### Final project:
 
-![fb](https://raw.github.com/mjhea0/passport-examples/master/public/img/final.png)
+![fb](https://raw.github.com/mjhea0/social-logins/master/public/img/final.png)
 
 ### Quick Start
 
