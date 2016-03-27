@@ -1,4 +1,4 @@
-# Social Authentication with Passport.js
+# Social Authentication using Passport.js
 
 - In this post we'll add social authentication - Facebook, Twitter, Github, Google, and Instagram - to Node.js.
 - View the blog post here: http://mherman.org/blog/2013/11/10/social-authentication-with-passport-dot-js/
