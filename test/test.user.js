@@ -6,7 +6,7 @@ var db;
 describe('User', function() {
 
   before(function(done) {
-    db = mongoose.connect('mongodb://localhost/test');
+    db = mongoose.connect('mongodb://localhost:12077/quiz');
     done();
   });
 
