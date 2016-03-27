@@ -7,7 +7,7 @@
 
 ### Final project:
 
-![fb](https://raw.github.com/mjhea0/social-logins/master/public/img/final.png)
+(https://github.com/thungasr/social-logins/master/public/img/final.png)
 
 ### Quick Start
 
