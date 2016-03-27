@@ -5,10 +5,6 @@
 
 > Updated on November 27th, 2015 - Refactored and added Instagram Authentication
 
-### Final project:
-
-(https://github.com/thungasr/social-logins/master/public/img/final.png)
-
 ### Quick Start
 
 1. Clone
