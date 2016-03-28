@@ -5,7 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "connect": "^3.4.1",
-    "documents": "^2.1.0",
+    "documents": "^0.0.1",
     "connect-flash": "^0.1.0",
     "express": "^4.0.0",
     "jade": "^1.11.0",
