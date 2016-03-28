@@ -19,7 +19,7 @@
     "bootstrap",
     "bootstrap3"
   ],
-  "author": "Michael Herman <michael@mherman.org>",
+  "author": "Srinivas Thungathurti <89589.thungathurti@students.itu.edu>",
   "license": "MIT",
   "dependencies": {
     "chai": "^3.4.1",
