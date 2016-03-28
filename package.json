@@ -2,7 +2,7 @@
   "name": "social-logins",
   "version": "0.0.1",
   "description": "a template for express, node.js, and twitter bootstrap 3",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "make test"
