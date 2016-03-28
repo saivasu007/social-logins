@@ -123,8 +123,8 @@ app.get('/logout', function(req, res){
 });
 
 // port
-app.listen(5000);
-console.log("Node application listening on http://127.0.0.1:1337");
+app.listen(process.env.PORT || 1337);
+//console.log("Node application listening on http://127.0.0.1:1337");
 
 // test authentication
 function ensureAuthenticated(req, res, next) {
