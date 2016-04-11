@@ -16,7 +16,7 @@ var LinkedinStrategy = require("passport-linkedin").Strategy;
 //var InstagramStrategy = require('passport-instagram').Strategy;
 
 // connect to the database
-mongoose.connect('mongodb://ds025399.mlab.com:25399/heroku_n6pklw1t');
+mongoose.connect('mongodb://heroku_7d9nm4j8:or2qd4f8n9v6hqcbrmocuvo7tj@ds025449.mlab.com:25449/heroku_7d9nm4j8');
 
 var app = express();
 
